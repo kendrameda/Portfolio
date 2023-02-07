@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+
+import React, { useState } from 'react';
 import './App.css';
 import { Header, About, Portfolio, Contact, Resume, Footer } from './components'
 
@@ -9,13 +10,14 @@ function App() {
   return (
     <>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      {/* if currentPage is equal to About, then go to About */}
       {currentPage === "About" && <About setCurrentPage={setCurrentPage}/>}
       {currentPage === "Portfolio" && <Portfolio />}
       {currentPage === "Contact" && <Contact />}
       {currentPage === "Resume" && <Resume />}
       <br></br>
       <Footer />
-      </>
+    </>
   );
 }
 
