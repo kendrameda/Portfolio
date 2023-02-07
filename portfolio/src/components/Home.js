@@ -1,12 +1,15 @@
 import React from 'react'
 import '../code.css'
+import './Header'
 
-const Portfolio = () => {
+const Home = () => {
   return (
     <div>
-    <p>My portfolio</p>
+    
+        
+
     </div>
   )
 }
 
-export default Portfolio
+export default Home

@@ -1,8 +1,13 @@
 import React from 'react'
+import '../code.css'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>Resume
+    
+      <p>my resume</p>
+     
+    </div>
   )
 }
 
