@@ -5,7 +5,7 @@ import { Header, About, Portfolio, Contact, Resume, Footer, Home } from './compo
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
       {currentPage === "Portfolio" && <Portfolio />}
       {currentPage === "Contact" && <Contact />}
       {currentPage === "Resume" && <Resume />}
-      {currentPage === 'Home' && <Home />}
+      
       <br></br>
       <Footer />
     </>
