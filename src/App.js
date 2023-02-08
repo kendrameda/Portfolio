@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import './App.css';
-import { Header, About, Portfolio, Contact, Resume, Footer, Home } from './components'
+import { Header, About, Portfolio, Contact, Resume, Footer } from './components'
 
 function App() {
 

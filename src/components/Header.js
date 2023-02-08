@@ -4,7 +4,7 @@ import '../code.css'
 const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
 
 const Header = ({ currentPage, setCurrentPage}) => {
-  const linkStyle = { border: '1px black', padding: '5px'};
+
   return (
     <header>
       <h1 style={ {fontSize: '50px'}}>Welcome to the world of Kendra Gibson</h1>
